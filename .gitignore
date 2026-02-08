@@ -1,0 +1,35 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+db.sqlite3
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/README.md
+
+# Server docs and credentials (not for public repo)
+.db_credentials
+.instance_secrets
+*.env
+.env
+.env.*
+SERVER*.md
+CLAUDE.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/

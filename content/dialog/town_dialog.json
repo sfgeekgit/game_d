@@ -1,0 +1,191 @@
+{
+  "npcNames": {
+    "npc.npc_lyra": "Lyra the Herbalist",
+    "npc.npc_borin": "Borin the Smith",
+    "npc.npc_sable": "Captain Sable",
+    "npc.npc_quill": "Quill the Archivist",
+    "npc.npc_elowen": "Elowen of Lantern Court",
+    "npc.npc_tarin": "Tarin",
+    "npc.npc_mara": "Mara",
+    "npc.npc_nessa": "Nessa",
+    "npc.npc_oswin": "Oswin",
+    "npc.npc_pru": "Pru",
+    "npc.npc_ren": "Ren",
+    "npc.npc_selin": "Selin",
+    "npc.npc_tovan": "Tovan",
+    "npc.npc_ursa": "Ursa",
+    "npc.npc_vann": "Vann",
+    "npc.npc_wren": "Wren",
+    "npc.npc_xara": "Xara",
+    "npc.npc_yorik": "Yorik",
+    "npc.npc_zev": "Zev",
+    "npc.npc_aela": "Aela",
+    "npc.npc_brinn": "Brinn",
+    "npc.npc_cass": "Cass",
+    "npc.npc_dane": "Dane",
+    "npc.npc_eris": "Eris",
+    "npc.npc_fenn": "Fenn",
+    "npc.npc_galen": "Galen",
+    "npc.npc_hale": "Hale",
+    "npc.npc_iora": "Iora",
+    "npc.npc_jory": "Jory",
+    "npc.npc_kipp": "Kipp"
+  },
+  "messages": {
+    "event.sign_gate": "Gate District: speak to neighbors, gather clues, and follow the roads.",
+    "event.sign_plaza": "Grand Plaza: east to the guild, west to the old hall, north to the market.",
+    "event.enter_hall": "The old hall is mostly empty now, but the air still smells like parchment.",
+    "event.enter_guild": "The guild lobby hums with scribes cataloging stories and trade records.",
+    "event.chest_herb_opened": "Inside the chest: a wrapped herb bundle sealed in wax cloth.",
+    "event.archive_locked": "The archive chest is locked by guild protocol. Quill must authorize it.",
+    "event.archive_found": "You found a sun ribbon, stamped with the guild crest.",
+    "event.chest_empty": "Only dust and splinters remain in this chest.",
+    "event.unknown": "Nothing happens.",
+
+    "event.lyra.quest_start": "Lyra: Bring me the herb bundle from the east quarter and I will trade a moon badge.",
+    "event.lyra.quest_wait": "Lyra: The herb bundle should be in a tucked-away chest near the eastern lanes.",
+    "event.lyra.quest_complete": "Lyra: Perfect. Here, take this moon badge and ask Captain Sable for market access.",
+    "event.lyra.after_quest": "Lyra: Keep the roads in your head. This town rewards people who remember paths.",
+
+    "event.borin.key_given": "Borin: Take this iron key. Sable only trusts travelers who carry forged steel.",
+    "event.borin.after": "Borin: If Quill sends you to the archives, check the ribbon stamps for date marks.",
+
+    "event.sable.needs_key": "Sable: No pass without proof from Borin.",
+    "event.sable.pass_given": "Sable: You are cleared. Here is a market pass. Show it in the eastern district.",
+    "event.sable.after": "Sable: Keep moving. The plaza gets dangerous when people stand still.",
+
+    "event.quill.task_start": "Quill: Fetch the sun ribbon from the archive chest and return at once.",
+    "event.quill.task_wait": "Quill: The archive chest sits in the southeast stacks. Bring me the ribbon.",
+    "event.quill.task_complete": "Quill: Excellent record work. Accept this guild seal.",
+
+    "event.elowen.cross_town": "Elowen: Ask people in the south ring about the old guild feud; their answers connect.",
+    "event.elowen.after": "Elowen: You are weaving threads between districts. Keep following the names.",
+
+    "dialog.npc_tarin.hello": "Tarin: I keep seeing Borin and Quill arguing about archive dates.",
+    "dialog.npc_tarin.rumor": "Tarin: Lyra trades moon badges for practical errands, not heroics.",
+    "dialog.npc_tarin.direction": "Tarin: Follow the road east, then south; that is where cross-town errands begin.",
+
+    "dialog.npc_mara.hello": "Mara: I map shortcuts by counting lamp posts.",
+    "dialog.npc_mara.rumor": "Mara: Captain Sable checks for an iron key before issuing passes.",
+    "dialog.npc_mara.direction": "Mara: The guild doors are on the far east side.",
+
+    "dialog.npc_nessa.hello": "Nessa: In this town, every task points to another person.",
+    "dialog.npc_nessa.rumor": "Nessa: Quill does not trust verbal reports, only stamped objects.",
+    "dialog.npc_nessa.direction": "Nessa: The southeast shelves hide older records.",
+
+    "dialog.npc_oswin.hello": "Oswin: Markets open wider once Sable knows your name.",
+    "dialog.npc_oswin.rumor": "Oswin: Lyra's moon badge can calm most gate checks.",
+    "dialog.npc_oswin.direction": "Oswin: Try the central signpost when you get lost.",
+
+    "dialog.npc_pru.hello": "Pru: I trade gossip for directions.",
+    "dialog.npc_pru.rumor": "Pru: The old hall is quiet, but clues still collect there.",
+    "dialog.npc_pru.direction": "Pru: Roads at y=10 and y=14 are your fastest loops.",
+
+    "dialog.npc_ren.hello": "Ren: Travelers who ask better questions finish quests faster.",
+    "dialog.npc_ren.rumor": "Ren: South ring folks mention Elowen when asked about guild history.",
+    "dialog.npc_ren.direction": "Ren: You can cross town quickly by staying on the major roads.",
+
+    "dialog.npc_selin.hello": "Selin: I listen for keyword repeats in conversations.",
+    "dialog.npc_selin.rumor": "Selin: The words key, pass, ribbon, and seal form a reliable chain.",
+    "dialog.npc_selin.direction": "Selin: Start west, finish east.",
+
+    "dialog.npc_tovan.hello": "Tovan: I mark people by the tools they carry.",
+    "dialog.npc_tovan.rumor": "Tovan: Borin's iron key opens doors in social terms, not literal locks.",
+    "dialog.npc_tovan.direction": "Tovan: If stuck, revisit Lyra and Quill.",
+
+    "dialog.npc_ursa.hello": "Ursa: I patrol in loops, same as you probably should.",
+    "dialog.npc_ursa.rumor": "Ursa: Sable softens once guild tasks are underway.",
+    "dialog.npc_ursa.direction": "Ursa: Southeast shelves, then east hall.",
+
+    "dialog.npc_vann.hello": "Vann: I keep a ledger of small favors.",
+    "dialog.npc_vann.rumor": "Vann: Elowen knows who spoke to whom.",
+    "dialog.npc_vann.direction": "Vann: Southern ring conversations complete the map.",
+
+    "dialog.npc_wren.hello": "Wren: Everything here is a chain of references.",
+    "dialog.npc_wren.rumor": "Wren: Ask one name, get two more.",
+    "dialog.npc_wren.direction": "Wren: Walk the east-west road and stop at each district column.",
+
+    "dialog.npc_xara.hello": "Xara: I archive stories by district.",
+    "dialog.npc_xara.rumor": "Xara: Quill was mentored by Elowen.",
+    "dialog.npc_xara.direction": "Xara: Lantern Court sits north-east.",
+
+    "dialog.npc_yorik.hello": "Yorik: The guild feud ended, but people still speak in fragments.",
+    "dialog.npc_yorik.rumor": "Yorik: Sun ribbons used to mark reconciliations.",
+    "dialog.npc_yorik.direction": "Yorik: Return to Quill when you find one.",
+
+    "dialog.npc_zev.hello": "Zev: I came for trade and stayed for the stories.",
+    "dialog.npc_zev.rumor": "Zev: Ask Galen and Iora about the southern families.",
+    "dialog.npc_zev.direction": "Zev: South ring loops are short and useful.",
+
+    "dialog.npc_aela.hello": "Aela: Every district has one person who tracks everyone else.",
+    "dialog.npc_aela.rumor": "Aela: In the north, that person is Elowen.",
+    "dialog.npc_aela.direction": "Aela: Stay on the columns to avoid dead ends.",
+
+    "dialog.npc_brinn.hello": "Brinn: I test routes by timing full laps.",
+    "dialog.npc_brinn.rumor": "Brinn: The archive lane has the most quest traffic.",
+    "dialog.npc_brinn.direction": "Brinn: Start at the plaza, then move southeast.",
+
+    "dialog.npc_cass.hello": "Cass: The old hall kept peace through records, not walls.",
+    "dialog.npc_cass.rumor": "Cass: Guild seals replaced old witness signatures.",
+    "dialog.npc_cass.direction": "Cass: Check both halls for context.",
+
+    "dialog.npc_dane.hello": "Dane: My job is to remember who sent you.",
+    "dialog.npc_dane.rumor": "Dane: If Elowen trusts you, most doors open.",
+    "dialog.npc_dane.direction": "Dane: Return north after finishing the south ring.",
+
+    "dialog.npc_eris.hello": "Eris: I collect map scraps.",
+    "dialog.npc_eris.rumor": "Eris: The best scraps always reference another district.",
+    "dialog.npc_eris.direction": "Eris: Cross-town tasks are the real tutorial here.",
+
+    "dialog.npc_fenn.hello": "Fenn: Travelers often skip conversations and miss half the game.",
+    "dialog.npc_fenn.rumor": "Fenn: Keywords unlock better routes than speed does.",
+    "dialog.npc_fenn.direction": "Fenn: Stop and talk often.",
+
+    "dialog.npc_galen.hello": "Galen: South ring knows the first ring's secrets.",
+    "dialog.npc_galen.rumor": "Galen: Ask Hale and Jory after you meet Elowen.",
+    "dialog.npc_galen.direction": "Galen: The chain ends where it began: Lyra.",
+
+    "dialog.npc_hale.hello": "Hale: I store old route mnemonics.",
+    "dialog.npc_hale.rumor": "Hale: Key, pass, ribbon, seal, then the town opens up.",
+    "dialog.npc_hale.direction": "Hale: Keep looping until names repeat.",
+
+    "dialog.npc_iora.hello": "Iora: Every errand in this town teaches one spatial shortcut.",
+    "dialog.npc_iora.rumor": "Iora: That is why errands stay short and local.",
+    "dialog.npc_iora.direction": "Iora: Use district roads, not grass wandering.",
+
+    "dialog.npc_jory.hello": "Jory: I compare stories from north and south districts.",
+    "dialog.npc_jory.rumor": "Jory: Most conflicts were solved by better record-keeping.",
+    "dialog.npc_jory.direction": "Jory: Quill confirms what everyone else implies.",
+
+    "dialog.npc_kipp.hello": "Kipp: You look like someone who enjoys complete checklists.",
+    "dialog.npc_kipp.rumor": "Kipp: If your inventory has badge, pass, ribbon, and seal, you're done.",
+    "dialog.npc_kipp.direction": "Kipp: One more lap, then rest."
+  },
+  "itemNames": {
+    "item.herb_bundle.name": "Herb Bundle",
+    "item.iron_key.name": "Iron Key",
+    "item.market_pass.name": "Market Pass",
+    "item.moon_badge.name": "Moon Badge",
+    "item.sun_ribbon.name": "Sun Ribbon",
+    "item.guild_seal.name": "Guild Seal"
+  },
+  "itemDescriptions": {
+    "item.herb_bundle.description": "Lyra asked for this from the east quarter chest.",
+    "item.iron_key.description": "A smith-marked key used as proof with Captain Sable.",
+    "item.market_pass.description": "A stamped pass granting district access.",
+    "item.moon_badge.description": "A reward from Lyra for returning the herb bundle.",
+    "item.sun_ribbon.description": "Recovered from the archive chest for Quill.",
+    "item.guild_seal.description": "Guild-issued seal proving completion of Quill's task."
+  },
+  "flagLabels": {
+    "cross_town_hint": "Cross-town hints unlocked",
+    "guild_seal_given": "Guild seal received",
+    "guild_task_done": "Archive task complete",
+    "guild_task_started": "Archive task started",
+    "herb_collected": "Herb bundle collected",
+    "herb_quest_started": "Herbalist quest started",
+    "herb_turned_in": "Herbalist quest completed",
+    "iron_key_given": "Iron key received",
+    "market_pass_given": "Market pass received"
+  }
+}
